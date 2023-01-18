@@ -1,0 +1,8 @@
+var char = "a"
+var str = "bhask4df9542"
+var c = 0;
+for(let i=0; i<=str.length; i++){
+    if(str.charCodeAt(i) >= 48 && str.charCodeAt(i) <= 57)
+        c++;
+}
+console.log(c);
