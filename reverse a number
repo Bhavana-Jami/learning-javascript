@@ -1,0 +1,21 @@
+//reverse a number
+//method 1
+let number = 12345678999990;
+
+
+
+    let rev = 0;
+    let last_numb = 0;
+    while(number > 0){
+    last_numb = number % 10;
+    rev = rev * 10 + last_numb;
+    number = Math.floor(number / 10);
+}
+
+
+console.log(rev);
+//method 2
+// let number = 12345678999990;
+// console.log(number.toString().split('').reverse().join(''));
+// const reverse = number => number.toString().split('').reverse().join('');
+// console.log(reverse(123));
