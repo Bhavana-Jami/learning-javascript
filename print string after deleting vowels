@@ -1,0 +1,4 @@
+function remove_vowels(s){
+    return(s.replace(/[aeiou]/g, ''));
+}
+console.log(remove_vowels("bhavana"));
