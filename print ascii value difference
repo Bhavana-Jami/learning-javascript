@@ -1,0 +1,5 @@
+
+function count(s, c){
+    return (s.charCodeAt()-c.charCodeAt());
+}
+console.log(count("c",'c'));
