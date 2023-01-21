@@ -10,3 +10,6 @@ function replaace(s){
     return  d;
  }
 console.log(replaace("bhavana"));
+//method 2
+var d = s.split('a').join('v');
+return d;
