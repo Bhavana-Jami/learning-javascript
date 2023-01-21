@@ -1,0 +1,12 @@
+
+function replaace(s){
+    var d = "";
+   for(let i=0; i<s.length; i++){
+      if(s[i] === 'a')
+        d += "v";
+      else
+        d += s[i];
+   }
+    return  d;
+ }
+console.log(replaace("bhavana"));
