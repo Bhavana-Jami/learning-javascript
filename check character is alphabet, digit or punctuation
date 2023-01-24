@@ -7,3 +7,4 @@ function check(c) {
         return ('its a special character');
 }
 console.log(check("8"));
+//
