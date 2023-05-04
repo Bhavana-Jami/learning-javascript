@@ -1,0 +1,22 @@
+//array destructuring
+// const arr = ['i', 'am', 'bhavana', 'jami']
+// const [one, two, three] = arr;
+// console.log(three);
+
+// const arr = ['i', 'am', 'bhavana', 'jami']
+// const [one, , three] = arr;
+// console.log(three);
+
+const calculte = (a,b) => {
+    const add = a+b;
+    const sub = a-b;
+    const mul = a*b;
+    const div = a/b;
+
+    return [add, sub, mul, div]
+}
+const [add, sub, mul, div] = calculte(1,2);
+console.log(add);
+console.log(sub);
+console.log(mul);
+console.log(div);
