@@ -1,0 +1,11 @@
+function swapcase(string){
+   var newstring = string.split('');
+   for(let i=0; i<newstring.length; i++){
+      if(newstring[i].charCodeAt() >= 97 && newstring[i].charCodeAt() <= 122)
+         newstring[i] = newstring[i].toUpperCase();
+      else  
+         newstring[i] = newstring[i].toLowerCase();
+   }
+   return newstring.join('');
+}
+console.log(swapcase('Bhavana'));

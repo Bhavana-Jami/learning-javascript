@@ -1,0 +1,11 @@
+let result = '';
+function string_rev(s){
+    let temp = s;
+    for(let i=s.length-1; i>=0; i--){
+        result += s[i];
+    }
+    if(result == temp)
+        return ("the string is a palindrome");
+    return ("the string not a palindrome")
+}
+console.log(string_rev("ana"));
