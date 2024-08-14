@@ -1,4 +1,0 @@
-const empty = string => string == "" ? console.log('it is empty string') : console.log('it is not empty string');
-empty(' sd');
-const empty = string => string.length == 0 ? console.log('it is empty string') : console.log('it is not empty string');
-empty(' sd');

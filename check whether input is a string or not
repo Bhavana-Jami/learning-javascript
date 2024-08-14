@@ -1,4 +1,0 @@
-// const empty = string => isNaN(string) ? console.log('it is a string') : console.log('it is not string');
-// empty('11');
-const empty = string => typeof string == 'string' ? console.log('it is a string') : console.log('it is not string');
-empty(77);

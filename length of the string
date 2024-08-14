@@ -1,7 +1,0 @@
-let  s = "bhavana";
-// console.log(s.length);
-let count = 0;
-while(s[count] != undefined){
-    count++;
-}
-console.log(count);
