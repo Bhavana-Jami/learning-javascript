@@ -1,0 +1,11 @@
+
+function count(s, c){
+    let ct = 0;
+    for(let i=0; i<s.length; i++){
+        if(s[i] == c){
+            ct++
+        }
+    }
+    return ct;
+}
+console.log(count("bhavana",'a'));
